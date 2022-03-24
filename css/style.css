@@ -546,6 +546,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
+.hidden {
+  display: none;
+}
+
 .section-header h2 {
   font-size: 32px;
   color: #F44336;
