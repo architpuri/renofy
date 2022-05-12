@@ -152,6 +152,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
+#header #logo p {
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  line-height: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
 #header #logo h1 span i{
     color: #F44336;
     font-size: 25px;
@@ -656,6 +664,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0 0 0;
 }
 
+#services .row {
+  display: flex;
+}
+
 #services .box {
   padding: 40px;
   margin-bottom: 40px;
@@ -1004,6 +1016,7 @@ p.help-block li {
 
 #team .member .pic img {
   max-width: 100%;
+  max-height: 400px;
   /* border-bottom: 4px solid #E91E63; */
   padding: 20px 20px 0;
 }
